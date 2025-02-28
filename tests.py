@@ -4,7 +4,7 @@ import numpy as np
 from collections import Counter
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
-from ethicalai.ethicaltools import BiasDetector, ExplainabilityTool, ChatbotAuditor
+from testingtools.ethicaltools import BiasDetector, ExplainabilityTool, ChatbotAuditor
 
 # AI Ethics Test 1: The Trolley Problem Simulation
 class TrolleyProblemAI:
